@@ -1,5 +1,5 @@
 {
-  "name": "blog-web-app",
+  "name": "blog-data",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -21,7 +21,9 @@
     "@strapi/strapi": "5.12.6",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
+    "knex": "^3.1.0",
     "mime-types": "^2.1.27",
+    "pg": "^8.15.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -38,6 +40,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "b97cf939-1ce3-43f9-b54e-3423d8ed59c1"
+    "uuid": "cd2bd8bc-65e0-4fa7-a0f5-fe0b83f64136"
   }
 }
